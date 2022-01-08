@@ -1,4 +1,6 @@
 /* 
+цвета новогодней темы:
+
 светло-серый #f0f4f7
 бежевый #c8beb9
 желто-кремовый #fac57d
@@ -10,6 +12,89 @@
   background: #c8beb9;
 }
 
-.lead__title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.cover__title,
+.cover__subtitle,
+.place__url,
+.footer__link,
+.header__lang {
+  color: #a81817;
+}
+
+p,
+div,
+span,
+.lead__subtitle,
+.place__url-heading {
   color: #344d2f;
+}
+
+.video__duration,
+.video__title,
+.vide__subtitle,
+.cover__subtitle {
+  color: #fac57d;
+}
+
+/* изменение размера текста */
+
+.intro__content-row_text,
+.intro__text {
+  font-size: 1rem;
+}
+
+.place__paragraph {
+  font-size: 1.1rem;
+}
+
+.comment__quote,
+.comment__author {
+  font-size: 1rem;
+}
+
+/* скругление углов у картинок */
+img,
+.lead__image {
+  border-radius: 8px;
+}
+
+/* стили для гирлянды */
+
+#gir {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../images/pngwing.com.png");
+  height: 36px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+}
+#nums_1 {
+  padding: 100px;
+}
+.gir_1 {
+  background-position: 0 0;
+}
+.gir_2 {
+  background-position: 0 -36px;
+}
+.gir_3 {
+  background-position: 0 -72px;
+}
+
+.header__lang {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1vw;
+}
+
+.footer__link {
+  font-size: 1.2rem;
+  letter-spacing: 0.05vw;
 }
